@@ -1,0 +1,3 @@
+<view
+  class="arrow {{direction === 'right' ? '' : 'arrow-direction'}} arrow-class"
+/>

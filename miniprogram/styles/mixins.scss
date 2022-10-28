@@ -1,0 +1,50 @@
+// 平铺背景
+@mixin background-fill($url) {
+  background-image: url($url);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: center center;
+}
+
+// 背景图
+@mixin bg($w, $h, $url) {
+  width: $w;
+  height: $h;
+  background-image: url($url);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+// 多行隐藏
+@mixin textoverflow($clamp: 1) {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -o-text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: $clamp;
+  -webkit-box-orient: vertical;
+}
+
+// 字体
+$lifamily: 'PingFangSC-Regular, PingFang SC';
+@mixin font-common($size, $lheight, $color, $weight: 400, $family: $lifamily) {
+  font-family: $family;
+  font-weight: $weight;
+  color: $color;
+  font-size: $size;
+  line-height: $lheight;
+}
+
+// 绝对定位
+@mixin ab($top: 0, $left: 0) {
+  position: absolute;
+  top: $top;
+  left: $left;
+}
+
+// flex布局
+@mixin fl($jc: start, $ai: center) {
+  display: flex;
+  justify-content: $jc;
+  align-items: $ai;
+}

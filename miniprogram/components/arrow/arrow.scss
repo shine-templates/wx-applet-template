@@ -1,0 +1,11 @@
+@import '../../styles/var.scss';
+@import '../../styles/flex.scss';
+@import '../../styles/mixins.scss';
+
+.arrow {
+  @include bg(14rpx, 24.77rpx, $img-url + 'mine/right_arrow@2x.png');
+}
+
+.arrow-direction {
+  transform: translate(180deg);
+}

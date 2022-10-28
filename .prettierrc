@@ -1,0 +1,51 @@
+{
+    "semi": false,
+    "singleQuote": true,
+    "useTabs": false,
+    "printWidth": 80,
+    "tabWidth": 2,
+    "trailingComma": "all",
+    "noSemi": true,
+    "rcVerbose": true,
+    "endOfLine": "auto",
+    "[javascript]": {
+        "editor.formatOnSave": true,
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[json]": {
+        "editor.formatOnSave": true,
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[css]": {
+        "editor.formatOnSave": true,
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[html]": {
+        "editor.formatOnSave": true,
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "prettier.documentSelectors": [
+        "**/*.wxml",
+        "**/*.wxss"
+    ],
+    "overrides": [
+        {
+            "files": "*.wxml",
+            "options": {
+                "parser": "html"
+            }
+        },
+        {
+            "files": "*.wxss",
+            "options": {
+                "parser": "css"
+            }
+        },
+        {
+            "files": "*.wxs",
+            "options": {
+                "parser": "babel"
+            }
+        }
+    ]
+}

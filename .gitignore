@@ -1,0 +1,7 @@
+# node.js
+#
+node_modules/
+miniprogram_npm/
+npm-debug.log
+yarn-error.log
+project.private.config.json

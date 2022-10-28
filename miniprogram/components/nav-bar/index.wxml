@@ -1,0 +1,34 @@
+<t-navbar
+  capsule="slot"
+  title="{{title}}"
+  t-class-title="nav-title"
+  background="{{background}}"
+  delta="{{delta}}"
+  t-class="t-class"
+  t-class-title="t-class-title"
+  t-class-left-icon="t-class-left-icon"
+  t-class-home-icon="t-class-home-icon"
+  t-class-capsule="t-class-capsule"
+>
+  <view slot="capsule" class="capsule">
+    <view wx:if="{{!showHome}}" class="left-icon-wrapper">
+      <image
+        slot="left-icon"
+        class="slot-left"
+        src="{{icon}}"
+        bind:tap="onGoBack"
+      />
+    </view>
+    <view wx:else class="left-home-wrapper">
+      <image
+        slot="home-icon"
+        class="slot-left"
+        src="{{homeIcon}}"
+        bind:tap="onGoHome"
+      />
+    </view>
+  </view>
+  <view slot="{{title === 'slot' ? 'title' : ''}}">
+    <slot name="title" />
+  </view>
+</t-navbar>

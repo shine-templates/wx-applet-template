@@ -1,0 +1,3 @@
+<view>
+  <t-navbar title="标题" t-class-title="nav-title" />
+</view>

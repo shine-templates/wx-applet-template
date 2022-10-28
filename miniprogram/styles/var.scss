@@ -1,0 +1,45 @@
+// 无法挂载到app.scss中直接全局使用，哪个地方用到需要在当前文件引入，很垃圾
+// 定义所有用到的颜色，字体，字体大小
+
+$img-url: '';
+
+// 主要颜色
+$primary-color: #ff3b30;
+$bottom-color: #f0f2f5;
+$embellish-color-one: #4c81ff;
+$embellish-color-two: #ffc200;
+$embellish-color-three: #fff7dc;
+$gradient-color-six: linear-gradient(321deg, #ff5e00 0%, #ff1a1a 100%);
+$gradient-color-one: inear-gradient(90deg, #ff9c70 0%, #ea2121 100%);
+$gradient-color-two: linear-gradient(
+  131deg,
+  #23b0ff 0%,
+  #3296fa 0%,
+  #32adfa 100%
+);
+$arrow-icon: #999999;
+$navbar-color: #ff3c31;
+$navbar-bgcolor: #f6f6f6;
+$background-color: #f0f2f5;
+
+// 文字颜色
+$primary-text-color: #333333;
+$dark-text-color: #2a2e33;
+$assist-text-color-one: #999999;
+$assist-text-color-two: #97989a;
+$white-text-color: #ffffff;
+$price-primary: #ff3b30;
+$price-gray: #b3b3b3;
+
+// 文字大小
+$ft-super: 36rpx;
+$ft-main: 34rpx;
+$ft-normal: 32rpx;
+$ft-assist: 28rpx;
+$ft-minor: 26rpx;
+$ft-mini: 24rpx;
+$price-font-small: 22rpx;
+
+// 圆角
+$border-radius-20: 20rpx;
+$border-radius-10: 10rpx;

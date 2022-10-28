@@ -1,0 +1,67 @@
+@import './styles/flex.scss';
+
+page {
+  box-sizing: border-box;
+  height: 100%;
+  font-family: 'PingFangSC-Medium, PingFang SC';
+  font-size: 26rpx;
+  background-color: #f8f8f8;
+  font-weight: 400;
+  --td-rate-disabled-color: #ffc200 !important;
+}
+
+// navbar 返回的图标大小
+.left-icon-back {
+  font-size: 45rpx !important;
+}
+
+// 白色返回arrow
+.left-icon-white {
+  font-size: 45rpx !important;
+  color: #fff;
+}
+
+.text-ellipsis {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+scroll-view ::-webkit-scrollbar {
+  display: none;
+  width: 0;
+  height: 0;
+  color: transparent;
+}
+
+.t-textarea__wrapper {
+  padding: 0 !important;
+}
+
+.t-textarea__placeholder {
+  font-size: 26rpx !important;
+  color: #b3b3b3 !important;
+  line-height: 37rpx !important;
+}
+
+.t-textarea__wrapper-textarea {
+  font-size: 26rpx !important;
+  color: #333333 !important;
+  line-height: 37rpx !important;
+}
+
+.t-textarea__count {
+  display: none;
+}
+
+// 后面的公共样式需要加上 global 前缀
+
+// 返回首页icon wrapper
+.global-left-home-wrapper {
+  background-color: rgba(0, 0, 0, 0.4);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 10rpx;
+}
