@@ -286,9 +286,9 @@ cross-spawn@^7.0.0:
     which "^2.0.1"
 
 dayjs@^1.10.7:
-  version "1.11.6"
-  resolved "https://registry.yarnpkg.com/dayjs/-/dayjs-1.11.6.tgz#2e79a226314ec3ec904e3ee1dd5a4f5e5b1c7afb"
-  integrity sha512-zZbY5giJAinCG+7AGaw0wIhNZ6J8AhWuSXKvuc1KAyMiRsvGQWqh4L+MomvhdAYjN+lqvVCMq1I41e3YHvXkyQ==
+  version "1.11.7"
+  resolved "https://registry.yarnpkg.com/dayjs/-/dayjs-1.11.7.tgz#4b296922642f70999544d1144a2c25730fce63e2"
+  integrity sha512-+Yw9U6YO5TQohxLcIkrXBeY73WP3ejHWVvx8XCk3gxvQDCTEmS48ZrSZCKciI7Bhl/uCMyxYtE9UqRILmFphkQ==
 
 debug@^2.6.9:
   version "2.6.9"
@@ -1160,10 +1160,10 @@ minimist@^1.2.0, minimist@^1.2.6:
   resolved "https://registry.yarnpkg.com/minimist/-/minimist-1.2.6.tgz#8637a5b759ea0d6e98702cfb3a9283323c93af44"
   integrity sha512-Jsjnk4bw3YJqYzbdyBiNsPWHPfO++UGG749Cxs6peCu5Xg4nrena6OVxOYxrQTqww0Jmwt+Ref8rggumkTLz9Q==
 
-miniprogram-api-typings@^3.6.0:
-  version "3.6.0"
-  resolved "https://registry.yarnpkg.com/miniprogram-api-typings/-/miniprogram-api-typings-3.6.0.tgz#1ba29d749ccd07ef710754430c37f45634ea0f76"
-  integrity sha512-xwK3PzhhxnfWqDfBikHLdAbj7Wy4F887nBcQrzwuF758Fw2qC4ivpKPL9t0uJZk5QYnU28+NqA7Q3lzYGMHQnA==
+miniprogram-api-typings@^3.9.0:
+  version "3.9.0"
+  resolved "https://registry.yarnpkg.com/miniprogram-api-typings/-/miniprogram-api-typings-3.9.0.tgz#c04a6b7eae5585733b5f8787297f2b9f1b60abac"
+  integrity sha512-QCXHHW9H4XYazb8J9EMiFyaOWHXhBG4oehkQqi+76FJpKKIlpgL0ZkXxzJ2L+6T/c5OxKm7iegovKIQGVkZDLQ==
 
 mkdirp@^0.5.1:
   version "0.5.6"
@@ -1669,10 +1669,10 @@ table@^5.2.3:
     slice-ansi "^2.1.0"
     string-width "^3.0.0"
 
-tdesign-miniprogram@^0.23.1:
-  version "0.23.1"
-  resolved "https://registry.yarnpkg.com/tdesign-miniprogram/-/tdesign-miniprogram-0.23.1.tgz#29a7d229a86256d3da03667619cbf1ee9fcce7ae"
-  integrity sha512-25sK3AIIvBOxK1XoEtH80L9yc7FyiI1Qt9zTcCoMpP/JcqEOS128hhKna7OsouRn3iDzeRM2wmR0GOkghsLvrA==
+tdesign-miniprogram@^1.0.0-rc.1:
+  version "1.0.0-rc.1"
+  resolved "https://registry.yarnpkg.com/tdesign-miniprogram/-/tdesign-miniprogram-1.0.0-rc.1.tgz#e312f428fbc006192d0067c4c42f8be757dfd191"
+  integrity sha512-Nf6wu28npelb3CGzok7mkJTyLLugtLiAXl+8+JEPGsaTCLc9CO+Q6Le9nJrS56wD3rxyB/SB0ONT9OWP9qqcnQ==
   dependencies:
     dayjs "^1.10.7"
 

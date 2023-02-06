@@ -23,7 +23,7 @@
   "dependencies": {
     "mobx-miniprogram": "^4.13.2",
     "mobx-miniprogram-bindings": "^1.2.1",
-    "tdesign-miniprogram": "^0.23.1"
+    "tdesign-miniprogram": "^1.0.0-rc.1"
   },
   "devDependencies": {
     "eslint": "^6.8.0",
@@ -32,7 +32,7 @@
     "eslint-plugin-prettier": "^3.1.2",
     "husky": "^8.0.1",
     "lint-staged": "^10.0.8",
-    "miniprogram-api-typings": "^3.6.0",
+    "miniprogram-api-typings": "^3.9.0",
     "prettier": "^2.6.2"
   }
 }
