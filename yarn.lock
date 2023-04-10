@@ -1669,10 +1669,10 @@ table@^5.2.3:
     slice-ansi "^2.1.0"
     string-width "^3.0.0"
 
-tdesign-miniprogram@^1.0.0-rc.1:
-  version "1.0.0-rc.1"
-  resolved "https://registry.yarnpkg.com/tdesign-miniprogram/-/tdesign-miniprogram-1.0.0-rc.1.tgz#e312f428fbc006192d0067c4c42f8be757dfd191"
-  integrity sha512-Nf6wu28npelb3CGzok7mkJTyLLugtLiAXl+8+JEPGsaTCLc9CO+Q6Le9nJrS56wD3rxyB/SB0ONT9OWP9qqcnQ==
+tdesign-miniprogram@^1.1.1:
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/tdesign-miniprogram/-/tdesign-miniprogram-1.1.1.tgz#58b1bf16209f1f257773eae6afa551f1011af658"
+  integrity sha512-35RuAfR74Hq3HEsOS3NRHyP9S1vdMI8/JSXgtPNV805KEtD9rHRK3Rn9gD08UqvGyemVOoB1IVzwk63fie4t2A==
   dependencies:
     dayjs "^1.10.7"
 

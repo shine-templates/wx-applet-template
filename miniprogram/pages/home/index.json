@@ -1,5 +1,10 @@
 {
-  "enablePullDownRefresh": true,
-  "onReachBottomDistance": 10,
-  "usingComponents": {}
+  "disableScroll": true,
+  "usingComponents": {
+    "t-navbar": "tdesign-miniprogram/navbar/navbar",
+    "navigation-bar": "/components/navigation-bar/index"
+  },
+  "componentPlaceholder": {
+    "t-navbar": "view"
+  }
 }

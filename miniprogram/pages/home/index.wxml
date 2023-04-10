@@ -1,3 +1,1 @@
-<view>
-  <t-navbar title="标题" t-class-title="nav-title" />
-</view>
+<navigation-bar title="首页" back="{{false}}"></navigation-bar>
