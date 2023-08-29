@@ -1160,10 +1160,10 @@ minimist@^1.2.0, minimist@^1.2.6:
   resolved "https://registry.yarnpkg.com/minimist/-/minimist-1.2.6.tgz#8637a5b759ea0d6e98702cfb3a9283323c93af44"
   integrity sha512-Jsjnk4bw3YJqYzbdyBiNsPWHPfO++UGG749Cxs6peCu5Xg4nrena6OVxOYxrQTqww0Jmwt+Ref8rggumkTLz9Q==
 
-miniprogram-api-typings@^3.9.0:
-  version "3.9.0"
-  resolved "https://registry.yarnpkg.com/miniprogram-api-typings/-/miniprogram-api-typings-3.9.0.tgz#c04a6b7eae5585733b5f8787297f2b9f1b60abac"
-  integrity sha512-QCXHHW9H4XYazb8J9EMiFyaOWHXhBG4oehkQqi+76FJpKKIlpgL0ZkXxzJ2L+6T/c5OxKm7iegovKIQGVkZDLQ==
+miniprogram-api-typings@^3.12.0:
+  version "3.12.0"
+  resolved "https://registry.yarnpkg.com/miniprogram-api-typings/-/miniprogram-api-typings-3.12.0.tgz#c42ba7606b3c7ca93725baa6d0353e02b3edad88"
+  integrity sha512-tE0zjq+3bFEgUROzCjXTdtLY+FmqiTX4kZWXc8bCC7M9wSHCriBz+ga1E2i1PcI+DQJoz2cyK8Cv2exJv6XEzA==
 
 mkdirp@^0.5.1:
   version "0.5.6"
@@ -1669,10 +1669,10 @@ table@^5.2.3:
     slice-ansi "^2.1.0"
     string-width "^3.0.0"
 
-tdesign-miniprogram@^1.1.15:
-  version "1.1.15"
-  resolved "https://registry.yarnpkg.com/tdesign-miniprogram/-/tdesign-miniprogram-1.1.15.tgz#d3fb0de148bf6136acb8dd3c505b1f2cfab44988"
-  integrity sha512-dFGA5fQnObN6bjer3CIcRhNOsjz9VwV2oBC+EEz2bFMYMQQZ0A754TWQzHr/UkW/q+qEMakfxGxlKTa19YSwzw==
+tdesign-miniprogram@^1.2.1:
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/tdesign-miniprogram/-/tdesign-miniprogram-1.2.1.tgz#9e5f063aeee225e26007dd6d05d4d0ef2653a430"
+  integrity sha512-wUOPKD4O4+Kx9LgPt4Tp3UmMM1eTRDwOW8lQvZZPxtApxV9iVu2zo4ZJXXanjuukdlQM+idg/oKAO7HymsEWrA==
   dependencies:
     dayjs "^1.10.7"
 
