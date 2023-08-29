@@ -23,7 +23,7 @@
   "dependencies": {
     "mobx-miniprogram": "^4.13.2",
     "mobx-miniprogram-bindings": "^1.2.1",
-    "tdesign-miniprogram": "^1.1.1"
+    "tdesign-miniprogram": "^1.1.15"
   },
   "devDependencies": {
     "eslint": "^6.8.0",

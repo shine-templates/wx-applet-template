@@ -55,6 +55,10 @@
     }
   },
   "lazyCodeLoading": "requiredComponents",
-  "renderer": "skyline",
+  "rendererOptions": {
+    "skyline": {
+      "defaultDisplayBlock": true
+    }
+  },
   "sitemapLocation": "sitemap.json"
 }

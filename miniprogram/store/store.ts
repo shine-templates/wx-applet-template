@@ -1,3 +1,5 @@
 import { observable } from 'mobx-miniprogram'
 
-export const store = observable({})
+const store = observable({})
+
+export default store

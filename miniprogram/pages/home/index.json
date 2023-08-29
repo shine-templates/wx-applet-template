@@ -2,7 +2,7 @@
   "disableScroll": true,
   "usingComponents": {
     "t-navbar": "tdesign-miniprogram/navbar/navbar",
-    "navigation-bar": "/components/navigation-bar/index"
+    "t-button": "tdesign-miniprogram/button/button"
   },
   "componentPlaceholder": {
     "t-navbar": "view"

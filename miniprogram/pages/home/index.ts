@@ -1,1 +1,4 @@
-Page({})
+Page({
+  data: {},
+  onLoad() {},
+})

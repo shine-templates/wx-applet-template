@@ -3,13 +3,9 @@
 
 interface IAppOption {
   globalData: {
-    userInfo?: WechatMiniprogram.UserInfo
-    getValues: (value: WechatMiniprogram.BaseEvent) => {}
     baseUrl: string
     images: string
   }
-
-  userInfoReadyCallback?: WechatMiniprogram.GetUserInfoSuccessCallback
 }
 
 declare const __wxConfig: {

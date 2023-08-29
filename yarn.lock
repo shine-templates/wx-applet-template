@@ -286,9 +286,9 @@ cross-spawn@^7.0.0:
     which "^2.0.1"
 
 dayjs@^1.10.7:
-  version "1.11.7"
-  resolved "https://registry.yarnpkg.com/dayjs/-/dayjs-1.11.7.tgz#4b296922642f70999544d1144a2c25730fce63e2"
-  integrity sha512-+Yw9U6YO5TQohxLcIkrXBeY73WP3ejHWVvx8XCk3gxvQDCTEmS48ZrSZCKciI7Bhl/uCMyxYtE9UqRILmFphkQ==
+  version "1.11.9"
+  resolved "https://registry.yarnpkg.com/dayjs/-/dayjs-1.11.9.tgz#9ca491933fadd0a60a2c19f6c237c03517d71d1a"
+  integrity sha512-QvzAURSbQ0pKdIye2txOzNaHmxtUBXerpY0FJsFXUMKbIZeFm5ht1LS/jFsrncjnmtv8HsG0W2g6c0zUjZWmpA==
 
 debug@^2.6.9:
   version "2.6.9"
@@ -1669,10 +1669,10 @@ table@^5.2.3:
     slice-ansi "^2.1.0"
     string-width "^3.0.0"
 
-tdesign-miniprogram@^1.1.1:
-  version "1.1.1"
-  resolved "https://registry.yarnpkg.com/tdesign-miniprogram/-/tdesign-miniprogram-1.1.1.tgz#58b1bf16209f1f257773eae6afa551f1011af658"
-  integrity sha512-35RuAfR74Hq3HEsOS3NRHyP9S1vdMI8/JSXgtPNV805KEtD9rHRK3Rn9gD08UqvGyemVOoB1IVzwk63fie4t2A==
+tdesign-miniprogram@^1.1.15:
+  version "1.1.15"
+  resolved "https://registry.yarnpkg.com/tdesign-miniprogram/-/tdesign-miniprogram-1.1.15.tgz#d3fb0de148bf6136acb8dd3c505b1f2cfab44988"
+  integrity sha512-dFGA5fQnObN6bjer3CIcRhNOsjz9VwV2oBC+EEz2bFMYMQQZ0A754TWQzHr/UkW/q+qEMakfxGxlKTa19YSwzw==
   dependencies:
     dayjs "^1.10.7"
 

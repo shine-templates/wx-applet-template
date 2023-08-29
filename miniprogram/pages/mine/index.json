@@ -1,5 +1,8 @@
 {
   "usingComponents": {
-    "navigation-bar": "/components/navigation-bar/index"
+    "t-navbar": "tdesign-miniprogram/navbar/navbar"
+  },
+  "componentPlaceholder": {
+    "t-navbar": "view"
   }
 }

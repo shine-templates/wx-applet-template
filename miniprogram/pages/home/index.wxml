@@ -1,1 +1,1 @@
-<navigation-bar title="首页" back="{{false}}"></navigation-bar>
+<t-navbar title="首页" />
